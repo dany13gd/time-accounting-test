@@ -1,0 +1,7 @@
+{
+  "name": "time-accounting-test",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
