@@ -3,11 +3,10 @@ import { FormControl, FormGroup, Validators } from '@angular/forms';
 import { Router } from '@angular/router';
 
 @Component({
-  selector: 'app-home',
-  templateUrl: 'home.page.html',
-  styleUrls: ['home.page.scss'],
+  selector: 'app-login',
+  templateUrl: 'login.page.html',
 })
-export class HomePage {
+export class LoginPage {
   private username= 'admin';
   private password = 'admin';
   private environment = 'dev';

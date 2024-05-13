@@ -2,9 +2,9 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { IonicModule } from '@ionic/angular';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
-import { HomePage } from './home.page';
+import {  LoginPage } from './login.page';
 
-import { HomePageRoutingModule } from './home-routing.module';
+import { LoginPageRoutingModule } from './login-routing.module';
 import { StoreModule } from '@ngrx/store';
 import { metaReducers, reducers } from '../store/reducers';
 
@@ -14,10 +14,10 @@ import { metaReducers, reducers } from '../store/reducers';
     CommonModule,
     FormsModule,
     IonicModule,
-    HomePageRoutingModule,
+    LoginPageRoutingModule,
     ReactiveFormsModule,
     StoreModule.forRoot(reducers, {metaReducers}),
   ],
-  declarations: [HomePage]
+  declarations: [LoginPage]
 })
-export class HomePageModule {}
+export class LoginPageModule {}
